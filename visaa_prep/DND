@@ -1,0 +1,12 @@
+m,n=map(int,input().split())
+a=list(map(int,input().split()))
+r1=0
+r2=0
+for num in a:
+    if num%n==0:
+        r1=r1+num
+    else:
+        r2=r2+num
+print(r1-r2)
+        
+        
